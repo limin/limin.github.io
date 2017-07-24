@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <style type="text/css">
+        .measures th {
+            white-space: nowrap;
+            text-align: left;
+            font-weight: normal;
+            padding: 0 8px;
+        }
+        
+        .cards td {
+            width: 80px;
+        }
+        
+        .title {
+            font-weight: bold;
+        }
+        
+        .conclusion{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>UD827: Intro to Descriptive Statistics Final Project</h1>
+    <span><a href="https://classroom.udacity.com/courses/ud827">Course link</a></span>
+
+    <h2>Questions for Investigation</h2>
+    <p>
+
+        This experiment will require the use of a standard deck of playing cards. This is a deck of fifty-two cards divided into four suits (spades, hearts, diamonds, and clubs), each suit containing thirteen cards (Ace, numbers 2-10, and face cards Jack, Queen,
+        and King). You can use either a physical deck of cards for this experiment or you may use a virtual deck of cards such as that found on random.org (<a href="http://www.random.org/playing-cards/">http://www.random.org/playing-cards/</a>).
+    </p>
+
+    <p>
+        <div>
+            For the purposes of this task, assign each card a value: The Ace takes a value of 1, numbered cards take the value printed on the card, and the Jack, Queen, and King each take a value of 10.
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th width="160"></th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Ace</th>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>Two</th>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Three</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th>Fours</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Five</th>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th>Six</th>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>Seven</th>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Eight</th>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th>Nine</th>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th>Ten</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th>Jacks</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th>Queens</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th>King</th>
+                    <td>10</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+
+    <p>
+        <h3>
+            1. First, create a histogram depicting the relative frequencies of the card values.
+        </h3>
+        <div>
+            A histogram is provided that accurately reflects the card values' relative frequency distribution.
+        </div>
+        <iframe src="histogram.html#card-relative-frequencies.csv" height="600" width="1024" style="border:none;"></iframe>
+        <p>
+            <div class="title">Measures of Central Tendency</div>
+            <table class="measures">
+                <tr>
+                    <th>Mean</th>
+                    <td>6.538461538</td>
+                </tr>
+                <tr>
+                    <th>Median</th>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Mode</th>
+                    <td>10</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <div class="title">Measures of Variability</div>
+            <table class="measures">
+                <tr>
+                    <th>Variance</th>
+                    <td>9.940828402</td>
+                </tr>
+                <tr>
+                    <th>Standard Deviation</th>
+                    <td>3.152907928</td>
+                </tr>
+            </table>
+        </p>
+    </p>
+
+
+    <p>
+        <h3>
+            2. Now, we will get samples for a new distribution. To obtain a single sample, shuffle your deck of cards and draw three cards from it. (You will be sampling from the deck without replacement.) Record the cards that you have drawn and the sum of the three
+            cards' values. Replace the drawn cards back into the deck and repeat this sampling procedure a total of at least thirty times.
+        </h3>
+        <div>At least thirty samples have been performed and the summed values from each sample have been reported in a submitted spreadsheet.</div>
+        </br>
+        <span>See summed values from each sample reported in <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Yw1SdcPSYP5AX1XtkdS5pTFCgBobbGHJtzZPG16p1TQ/edit?usp=sharing">spreadsheet.</a> The samples are generated by a <a href="simulator.html">card drawing simulator</a> implemented by myself.</span> 
+
+    </p>
+
+    <p>
+        <h3>
+            3. Let's take a look at the distribution of the card sums. Report descriptive statistics for the samples you have drawn. Include at least two measures of central tendency and two measures of variability.
+        </h3>
+        <div>
+            At least two measures of central tendency and two measures of variability are accurately reported to summarize and describe the samples taken for Question 2.
+        </div>
+        <p>
+            <div class="title">Measures of Central Tendency</div>
+            <table class="measures">
+                <tr>
+                    <th>Mean</th>
+                    <td>19.677</td>
+                </tr>
+                <tr>
+                    <th>Median</th>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th>Mode</th>
+                    <td>21</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <div class="title">Measures of Variability</div>
+            <table class="measures">
+                <tr>
+                    <th>Interquatile Range(IQR)</th>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th>Variance</th>
+                    <td>29.69442271</td>
+                </tr>
+                <tr>
+                    <th>Standard Deviation</th>
+                    <td>5.449258914</td>
+                </tr>
+            </table>
+        </p>
+
+    </p>
+
+    <p>
+        <h3> 4. Create a histogram of the sampled card sums you have recorded. Compare its shape to that of the original distribution. How are they different, and can you explain why this is the case?
+        </h3>
+        <div>
+            A histogram accurately reflecting the sampled data is provided. Discussion of the shape is provided, including a comparison to that of the histogram of the original card values.
+        </div>
+        <h4>10000 samples</h4>
+        <iframe src="histogram.html#sample-values-10000.csv" height="600" width="1024" style="border:none;"></iframe> 
+        <p>
+            The distribution of sample values is almost normal though the distribution of original card values is a negatively skewed one. This is because the distribution of sample means is normal for any population (By The Central Limit Theorem). So is the sum of the sample values which is 3 times of the mean.
+        </p>
+    </p>
+
+    <p>
+        <h3> 5. Make some estimates about values you will get on future draws. Within what range will you expect approximately 90% of your draw values to fall? What is the approximate probability that you will get a draw value of at least 20? Make sure you
+            justify how you obtained your values.
+        </h3>
+        <div>
+            Estimates are made for the prompted questions that reflect the samples taken and their distribution.
+        </div>
+        
+        <p>
+            To expect approximately 90% of draw values to fall, we can range excluding the top and bottom 5%. Loop up z-score table, 
+            <span>z(1.65) = 0.9505</span> 
+            <table class="measures">
+                <tr>
+                    <th>Population Mean</th>
+                    <td>6.54</td>
+                </tr>
+                <tr>
+                    <th>Population Standard Deviation</th>
+                    <td>3.15</td>
+                </tr>
+                <tr>
+                    <th>Standard Error(Sample size 3)</th>
+                    <td>3.15/sqrt(3)=1.82</td>
+                </tr>
+                <tr>
+                    <th>z-score</th>
+                    <td>z(1.65) = 0.9505</td>
+                </tr>                
+                <tr>
+                    <th>Lower mean value</th>
+                    <td>6.54-1.65*1.82=3.53</td>
+                </tr>  
+                <tr>
+                    <th>Upper mean value</th>
+                    <td>6.54+1.65*1.82=9.54</td>
+                </tr>    
+                <tr>
+                    <th>Lower sum value</th>
+                    <td>3.53*3=10.60</td>
+                </tr>  
+                <tr>
+                    <th>Upper sum value</th>
+                    <td>9.54*3=28.63</td>
+                </tr>                   
+            </table>
+            <br>
+            <span class="conclusion">So 90% draw values fall between 10.60 with 28.63.</span>
+        </p>
+        <p>
+            To estimate the is probability of getting a draw value of at least 20, we first calcuate the z-score of its mean (20/3)
+            <table class="measures">
+                <tr>
+                    <th>Population Mean</th>
+                    <td>6.54</td>
+                </tr>
+                <tr>
+                    <th>Population Standard Deviation</th>
+                    <td>3.15</td>
+                </tr>
+                <tr>
+                    <th>Standard Error(Sample size 3)</th>
+                    <td>3.15/sqrt(3)=1.82</td>
+                </tr>
+                <tr>
+                    <th>Mean value of sum 20</th>
+                    <td>20/3=6.67</td>
+                </tr>                 
+                <tr>
+                    <th>z-score</th>
+                    <td>(6.67-6.54)/1.82=0.07</td>
+                </tr>                
+                <tr>
+                    <th>Percentage of z-score 0.07</th>
+                    <td>0.5279</td>
+                </tr>  
+                <tr>
+                    <th>Percentage >=20</th>
+                    <td>1 - 0.5279 = 0.4721</td>
+                </tr>    
+            </table>
+            <br>
+            <span class="conclusion">Therefore, the approximate probability of drawing a value of at least 20 is 47%. </span>
+        </p>
+        
+    </p>
+
+    <h2>Notes</h2>
+    <p class="note">
+        <div class="title">Central Limit Theorem</div>
+        <div>
+            The central limit theorem states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacementtext annotation indicator, then the distribution of the sample means will be approximately normally distributed. This will hold true regardless of whether the source population is normal or skewed, provided the sample size is sufficiently large (usually n > 30). If the population is normal, then the theorem holds true even for samples smaller than 30. In fact, this also holds true even if the population is binomial, provided that min(np, n(1-p))> 5, where n is the sample size and p is the probability of success in the population. This means that we can use the normal probability model to quantify uncertainty when making inferences about a population mean based on the sample mean.
+        </div>
+    </p>
+    <p class="note">
+        <div class="title">Sampling without replacement</div>
+        <div>
+            When the sampling is done without replacement (as in the pumpkin example), then there is a finite correction factor in the formula. Let M denote the population size and n the sample size: \[\sigma_{\bar{y}}=\sqrt{\frac{M-n}{M-1}} \frac{\sigma}{\sqrt{n}}\]
+            If the population size is large compared to the sample size (population size is more than 20 times the sample size), then the finite correction factor can be ignored and we can use the simpler formula for sampling with replacement.
+        </div>
+        <ul>
+            <li>
+                <a href="https://onlinecourses.science.psu.edu/stat500/book/export/html/25">Sampling Distribution and Central Limit Theorem</a>
+            </li>
+            <li>
+                <a href="https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch07.propCLT.pdf">Adjustment for Sampling Without Replacement</a>
+            </li>            
+            
+        </ul>
+    </p>
+    <p class="note">
+        <div class="title">Central Limit Theorem with a Skewed Distribution</div>
+        <div>
+            This population is not normally distributed, but the Central Limit Theorem will apply if n > 30.
+        </div>
+        <ul>
+            <li>
+                <a href="http://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html">Central Limit Theorem</a>
+            </li>
+        </ul>
+    </p>
+
+</body>
+
+</html>
