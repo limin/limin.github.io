@@ -2,13 +2,29 @@ export const events=[
   {
     timestamp: 1504841834000,
     title:"React Fundamentals",
-    content: "- Why React?\n- Rendering UI with React\n- State Management\n- Render UI with External Data\n- Managing App Location with React Router\n- Project: [A Book Tracking App](https://github.com/limin/nd019-myreads)",
+    content:
+`
+- Why React?
+- Rendering UI with React
+- State Management
+- Render UI with External Data
+- Managing App Location with React Router
+- Project: [A Book Tracking App](https://github.com/limin/nd019-myreads)",
+`,
     icon: "check-square-o"
   },
   {
     timestamp:1509875040000,
     title:"React & Redux",
-    content: "- Why Redux?\n- Redux At Its Core\n- React & Redux\n- Architect A Redux Store\n- Redux Middleware\n- Project: [Readable](https://github.com/limin/nd019-readable)",
+    content:
+`
+- Why Redux?
+- Redux At Its Core
+- React & Redux
+- Architect A Redux Store
+- Redux Middleware
+- Project: [Readable](https://github.com/limin/nd019-readable)
+`,
     icon: "check-square-o"
   },
   {
