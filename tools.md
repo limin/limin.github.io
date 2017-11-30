@@ -9,3 +9,5 @@
 [Udacity](https://udacity.com)
 
 [nuclide](https://nuclide.io)
+
+[Javscript REPL](http://babeljs.io/repl/)
