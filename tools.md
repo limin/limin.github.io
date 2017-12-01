@@ -13,3 +13,5 @@
 [Javscript REPL](http://babeljs.io/repl/)
 
 [regexr](https://regexr.com/)
+
+[node-inspector](https://github.com/node-inspector/node-inspector)
