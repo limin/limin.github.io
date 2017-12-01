@@ -11,3 +11,5 @@
 [nuclide](https://nuclide.io)
 
 [Javscript REPL](http://babeljs.io/repl/)
+
+[regexr](https://regexr.com/)
